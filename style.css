@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    color: black;
+    background-color: #EDEDED;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 4vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#display{
+    margin: 10vw 0;
+    background-color: lightgoldenrodyellow;
+    height: 200px;
+    width: 400px;
+}
+
+#gen{
+    background-color: royalblue;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 50%;
+}
